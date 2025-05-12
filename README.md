@@ -84,8 +84,8 @@ If empty, show "No response".
 
 
 ## PROGRAM
----
 App.js
+---
 import React, { useState } from "react";
 import "./App.css";
 
@@ -321,9 +321,9 @@ export default App;
 
 
 
-
----
 App.css
+---
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #f0f4f8;
