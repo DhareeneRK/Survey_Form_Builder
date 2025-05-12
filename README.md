@@ -318,10 +318,8 @@ const Footer = () => (
 );
 
 export default App;
----
-## OUTPUT
+```jsx
 
-![web 125](https://github.com/user-attachments/assets/3b2755b3-e346-48e6-9698-5fd9a573f982)
-
-## RESULT
+### OUTPUT
+### RESULT
 The program for creating Survey Form Builder using ReactJS is executed successfully.
