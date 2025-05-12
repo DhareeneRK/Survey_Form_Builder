@@ -86,7 +86,7 @@ If empty, show "No response".
 ## PROGRAM
 
 ### App.js
-
+```jsx
 import React, { useState } from "react";
 import "./App.css";
 
@@ -317,9 +317,10 @@ const Footer = () => (
 );
 
 export default App;
-
+```
 
 ### App.css
+```css
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #f0f4f8;
@@ -409,7 +410,7 @@ footer {
   background-color: #f3f4f6;
   border-top: 1px solid #e5e7eb;
 }
-
+```
 ### OUTPUT
 ![web 125](https://github.com/user-attachments/assets/cea0159c-57aa-47d1-a133-d549cdbae279)
 
