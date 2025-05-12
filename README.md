@@ -87,7 +87,6 @@ If empty, show "No response".
 
 ### App.js
 
-```jsx
 import React, { useState } from "react";
 import "./App.css";
 
@@ -318,8 +317,101 @@ const Footer = () => (
 );
 
 export default App;
-```jsx
+
+
+### App.css
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+input[type="text"],
+select {
+  display: block;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.remove-btn {
+  background-color: #dc2626;
+  margin-left: 0.5rem;
+}
+
+.remove-btn:hover {
+  background-color: #b91c1c;
+}
+
+.mode-switch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question-box {
+  background-color: #f9fafb;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.response-summary {
+  background-color: #dbeafe;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.options-hint {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-top: -0.75rem;
+  margin-bottom: 0.5rem;
+}
+footer {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.9rem;
+  background-color: #f3f4f6;
+  border-top: 1px solid #e5e7eb;
+}
 
 ### OUTPUT
+![web 125](https://github.com/user-attachments/assets/cea0159c-57aa-47d1-a133-d549cdbae279)
+
 ### RESULT
 The program for creating Survey Form Builder using ReactJS is executed successfully.
